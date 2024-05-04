@@ -1,0 +1,22 @@
+@media screen and (max-width: 991px) {
+    .avatar {
+        display: none
+    }
+    .position-relative {
+        width: 0;
+    }
+    #target,
+    #personal-info {
+        padding: 10px 0px;
+        display: grid;
+    }
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+.hidden {
+    display: none;
+}
